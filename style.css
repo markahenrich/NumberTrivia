@@ -4,3 +4,26 @@
     box-sizing: border-box;
 }
 
+
+header {
+    height: 10vh;
+    text-align: center;
+    padding-top: 1%;
+    background-color: lightblue;
+}
+
+.container {
+    height: 90vh;
+    background: linear-gradient(lightblue,rgb(0, 125, 200));
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: repeat(4, 20vh);
+}
+
+footer {
+    background-color: rgb(0, 125, 200);
+    color: lightblue;
+    text-align: center;
+    padding-top: 1%;
+}
