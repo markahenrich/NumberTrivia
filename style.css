@@ -24,6 +24,14 @@ header {
 #userInput {
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-self: center;
+    text-align: center;
+}
+
+#userInput input {
+    width: 30%;
+    height: 17%;
+    padding-left: 10px;
 }
 
 #button1 {
