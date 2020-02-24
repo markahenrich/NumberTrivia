@@ -21,6 +21,21 @@ header {
     grid-template-rows: repeat(4, 20vh);
 }
 
+#userInput {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#button1 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#factText {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
 footer {
     background-color: rgb(0, 125, 200);
     color: lightblue;
