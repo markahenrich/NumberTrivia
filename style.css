@@ -29,7 +29,7 @@ header {
 }
 
 #userInput input {
-    width: 30%;
+    width: 45%;
     height: 17%;
     padding-left: 10px;
 }
@@ -41,7 +41,7 @@ header {
 
 #factText {
     grid-column: 2/4;
-    grid-row: 3/4;
+    grid-row: 3/5;
 }
 
 footer {
